@@ -1,6 +1,6 @@
 <img width="874" height="289" alt="Stylized Crow and Wind Log" src="https://github.com/user-attachments/assets/c0449bf8-edd1-42d4-b560-50dfe75e4581" />
 
-A powerful CLI automation tool that interacts with Codex AI through the Z.ai chat interface, providing real-time response streaming and professional-grade automation capabilities.
+A powerful AI in a CLI automation tool that interacts with Codex AI through the Z.ai chat interface, providing real-time response streaming and professional-grade automation capabilities.
 Features
 
     🤖 Automated AI Interactions: Seamlessly communicate with Codex AI
