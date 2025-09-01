@@ -16,7 +16,6 @@ Features
     🕶️ Headless Mode: Run automation in the background without GUI
 
 Installation
-Prerequisites
 
     Python 3.7+
 
@@ -33,7 +32,6 @@ git clone https://github.com/IlyassCODEX/Zephyr.git
 cd Zephyr
 
 Install required dependencies
-bash
 
     pip install -r requirements.txt
 
@@ -46,7 +44,6 @@ bash
 Requirements
 
 The requirements.txt file:
-text
 
 selenium==4.15.0
 colorama==0.4.6
