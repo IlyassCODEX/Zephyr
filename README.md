@@ -41,13 +41,6 @@ Install required dependencies
 
         Place in /usr/bin/chromedriver or specify path during execution
 
-Requirements
-
-The requirements.txt file:
-
-selenium==4.15.0
-colorama==0.4.6
-pyfiglet==0.8.post1
 
 Usage
 Basic Usage
