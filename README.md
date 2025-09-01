@@ -27,9 +27,8 @@ Step-by-Step Installation
 
     Clone the repository
     bash
-
-git clone https://github.com/IlyassCODEX/Zephyr.git
-cd Zephyr
+    git clone https://github.com/IlyassCODEX/Zephyr.git
+    cd Zephyr
 
 Install required dependencies
 
