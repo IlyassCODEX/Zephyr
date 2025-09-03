@@ -22,8 +22,9 @@ It allows you to ask questions and stream responses in real time, with a profess
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/zephyr-ai-cli.git
-   cd zephyr-ai-cli ```
+   git clone https://github.com/IlyassCODEX/zephyr.git
+   cd zephyr
+   ```
 
 2. Install dependencies:
 
@@ -44,7 +45,7 @@ It allows you to ask questions and stream responses in real time, with a profess
 Run the script:
 
 ```bash
-python zephyr_playright.py
+python zephyr.py
 ```
 
 You will see a banner and a prompt:
@@ -81,7 +82,7 @@ exit
 ## ⚙️ Configuration
 
 * **Headless mode** (default: `True`):
-  To see the browser window, set in `zephyr_playright.py`:
+  To see the browser window, set in `zephyr.py`:
 
   ```python
   bot = ZCHATAI(headless=False)
@@ -95,9 +96,9 @@ exit
 ## 📂 Project Structure
 
 ```
-zephyr-ai-cli/
+zephyr/
 │
-├── zephyr_playright.py   # Main CLI script
+├── zephyr.py   # Main CLI script
 ├── requirements.txt      # Dependencies
 └── codex_ai_log.txt      # Generated log file (runtime)
 ```
@@ -135,11 +136,3 @@ Feel free to fork the repo and submit a pull request.
 ## 📌 Disclaimer
 
 This project is for **educational and research purposes only**.
-It automates interactions with Codex AI via Playwright and is **not affiliated with OpenAI, Anthropic, or chat.z.ai**.
-
-```
-
----
-
-👉 Do you also want me to generate the `requirements.txt` file for you so your GitHub project is fully plug-and-play?
-```
