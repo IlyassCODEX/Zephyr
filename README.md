@@ -4,7 +4,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)   [![Playwright](https://img.shields.io/badge/Playwright-Automation-green.svg)](https://playwright.dev/python/)   [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)   [![Status](https://img.shields.io/badge/Status-Active-success.svg)]()  
 
-A **command-line automation tool** built with [Playwright](https://playwright.dev/) to interact with **Codex AI (chat.z.ai)** directly from your terminal.  
+Now you can **chat with AI directly from your terminal** – no API keys, no complex requests, no need to visit websites.  
+Zephyr AI Automation CLI makes it effortless: just run the tool, type your questions, and watch the AI respond in real time, right inside your CLI.  
 It allows you to ask questions and stream responses in real time, with a professional CLI interface and automatic logging.  
 
 ---
