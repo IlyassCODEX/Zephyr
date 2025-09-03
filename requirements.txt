@@ -1,4 +1,3 @@
-selenium==4.15.0
+Playwright 
 colorama==0.4.6
 pyfiglet==0.8.post1
-
