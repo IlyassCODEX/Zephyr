@@ -1,120 +1,153 @@
 <img width="874" height="289" alt="Stylized Crow and Wind Log" src="https://github.com/user-attachments/assets/c0449bf8-edd1-42d4-b560-50dfe75e4581" />
 
-A powerful AI in a CLI automation tool that interacts with Codex AI through the Z.ai chat interface, providing real-time response streaming and professional-grade automation capabilities.
+Got it ✅
+Here’s a **ready-to-use `README.md` file** with badges, professional formatting, and all the details polished for GitHub.
 
-Example of usage :
-<img width="960" height="476" alt="ASAS" src="https://github.com/user-attachments/assets/49e27c2f-a394-49c2-8667-09bccf0b3d0c" />
+---
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)  
+[![Playwright](https://img.shields.io/badge/Playwright-Automation-green.svg)](https://playwright.dev/python/)  
+[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)  
+[![Status](https://img.shields.io/badge/Status-Active-success.svg)]()  
 
-Features
+A **command-line automation tool** built with [Playwright](https://playwright.dev/) to interact with **Codex AI (chat.z.ai)** directly from your terminal.  
+It allows you to ask questions and stream responses in real time, with a professional CLI interface and automatic logging.  
 
-    🤖 Automated AI Interactions: Seamlessly communicate with Codex AI
+---
 
-    ⚡ Real-time Response Streaming: Watch responses generate in real-time
+## ✨ Features
+- 🚀 **Playwright-powered automation** – no APIs or keys required  
+- 💬 **Interactive CLI** – ask questions and get answers directly in your terminal  
+- 📝 **Real-time streaming** – responses appear progressively, like a real chat  
+- 📂 **Automatic logging** – all Q&A sessions saved in `codex_ai_log.txt`  
+- 🎨 **Professional CLI design** – clean layout with colors and typing effect  
+- ⚡ **Headless or visible browser** – switch easily depending on your needs  
 
-    🎨 Professional CLI Interface: Beautiful terminal interface with colors and animations
+---
 
-    📝 Session Logging: Automatically save all conversations to a log file
+## 📦 Installation
 
-    🔧 Configurable Settings: Customize ChromeDriver path and streaming speed
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/zephyr-ai-cli.git
+   cd zephyr-ai-cli
+````
 
-    🕶️ Headless Mode: Run automation in the background without GUI
+2. Install dependencies:
 
-Installation
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-    Python 3.7+
+3. Install Playwright browsers:
 
-    Chrome browser installed
+   ```bash
+   playwright install
+   ```
 
-    ChromeDriver (compatible with your Chrome version)
+---
 
-Step-by-Step Installation
+## ▶️ Usage
 
-    Clone the repository
-    bash
-    git clone https://github.com/IlyassCODEX/Zephyr.git
-    cd Zephyr
+Run the script:
 
-Install required dependencies
+```bash
+python zephyr_playright.py
+```
 
-    pip install -r requirements.txt
+You will see a banner and a prompt:
 
-    Install ChromeDriver
+```
+======================================================================
+Welcome to Codex AI Automation CLI (Playwright)
+======================================================================
 
-        Download from: https://chromedriver.chromium.org/
+Type your questions below (type 'exit' to quit):
 
-        Place in /usr/bin/chromedriver or specify path during execution
+You:
+```
 
+Example session:
 
-Usage
-Basic Usage
+```
+You: what is the capital of France?
 
-    Run the tool:
-    bash
+Codex AI Response:
+----------------------------------------------------------------------
+The capital of France is Paris.
+----------------------------------------------------------------------
+```
 
-    python agent_codex_ai_update.py
+Exit anytime with:
 
-    Enter ChromeDriver path when prompted (or press Enter for default)
+```
+exit
+```
 
-    Start chatting with Codex AI by typing your questions
+---
 
-    Type 'exit' or 'quit' to end the session
+## ⚙️ Configuration
 
-Advanced Configuration
+* **Headless mode** (default: `True`):
+  To see the browser window, set in `zephyr_playright.py`:
 
-Modify these variables in the code for customization:
+  ```python
+  bot = ZCHATAI(headless=False)
+  ```
 
-    headless: Set to True for headless operation
+* **Logs**:
+  All conversations are saved automatically in `codex_ai_log.txt`.
 
-    timeout: Adjust response timeout (default: 120 seconds)
+---
 
-    check_interval: Change streaming check interval (default: 0.5 seconds)
+## 📂 Project Structure
 
-    stream_delay: Modify typing animation speed (default: 0.07 seconds)
+```
+zephyr-ai-cli/
+│
+├── zephyr_playright.py   # Main CLI script
+├── requirements.txt      # Dependencies
+└── codex_ai_log.txt      # Generated log file (runtime)
+```
 
-Troubleshooting
-Common Issues
+---
 
-    ChromeDriver not found
+## 🛠 Requirements
 
-        Ensure ChromeDriver is installed and path is correct
+* Python **3.8+**
+* [Playwright](https://playwright.dev/python/)
+* [Colorama](https://pypi.org/project/colorama/)
+* [Pyfiglet](https://pypi.org/project/pyfiglet/)
 
-        Download compatible version from https://chromedriver.chromium.org/
+Install all dependencies:
 
-    Browser detection
+```bash
+pip install -r requirements.txt
+```
 
-        The tool uses a standard user agent, but websites may still detect automation
+---
 
-        Consider adding more stealth options if needed
+## 📜 License
 
-    Element not found errors
+This project is licensed under the **MIT License** – see [LICENSE](LICENSE) for details.
 
-        The website structure may have changed
+---
 
-        Check and update XPATH selectors if necessary
+## 🙌 Contributing
 
-Debug Mode
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and submit a pull request.
 
-To enable debugging, add these options to the Chrome setup:
-python
+---
 
-chrome_options.add_argument("--log-level=3")
-chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+## 📌 Disclaimer
 
-License
+This project is for **educational and research purposes only**.
+It automates interactions with Codex AI via Playwright and is **not affiliated with OpenAI, Anthropic, or chat.z.ai**.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-Disclaimer
+```
 
-This tool is for educational and research purposes only. Ensure you comply with the terms of service of any websites you interact with using this automation tool.
-Support
+---
 
-If you encounter any issues or have questions:
-
-    Check the troubleshooting section above
-
-    Open an issue on GitHub
-
-    Provide detailed information about your environment and the error
-
-Note: This tool may require maintenance as website structures change over time. Regularly check for updates to ensure compatibility.
+👉 Do you also want me to generate the `requirements.txt` file for you so your GitHub project is fully plug-and-play?
+```
