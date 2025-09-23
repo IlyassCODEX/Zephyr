@@ -7,7 +7,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A powerful, professional-grade command-line interface for interacting with multiple AI models simultaneously. ZephyrAI automates browser-based AI interactions using Playwright, providing a unified interface for DeepAI, Zhipu AI, and iAsk AI.
+A powerful, professional-grade command-line interface for interacting with multiple AI models simultaneously. ZephyrAI automates browser-based AI interactions using Playwright, providing a unified interface for DeepAI, Zchat AI, and iAsk AI.
 
 ## 🚀 Features
 
